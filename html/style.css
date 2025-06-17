@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+    color: white;
+    text-align: center;
+}
+
+.background {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(4px);
+}
+
+.main .info {
+    margin-top: 10%;
+    background: rgba(0,0,0,0.7);
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
